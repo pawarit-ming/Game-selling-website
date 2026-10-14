@@ -1,0 +1,155 @@
+nav {
+    background-color: #333;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav a {
+    float: right;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+header h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 20vw;
+    height: auto;
+
+}
+
+.Edit {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+img.profile-admin {
+    max-width: 20%;
+    height: auto;
+}
+
+.Edit h1 {
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 10px;
+    width: 40%;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"], 
+input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    width: 93%;
+}
+
+/* ปุ่มกด */
+button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#add-product-form {
+    text-align: center; 
+}
+
+/* ปุ่ม add product */
+#addbutton {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* ปุ่มบันทึกข้อมูล */
+#submitbotton {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+/* ปุ่มยกเลิกข้อมูล */
+#cancel-edit {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* ปุ่มเพิ่ม profile  */
+#addprofile {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 10px;
+    text-align: center;
+}
+
+.sidebar li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sidebar li a:hover {
+    background-color: #555;
+}
+
+h2{
+    color: white;
+}

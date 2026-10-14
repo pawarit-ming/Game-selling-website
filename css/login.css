@@ -1,0 +1,96 @@
+header {
+    font-size: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* nav bar */
+nav {
+    background-color: #333;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+/* เนื่อหา */
+.container {
+    font-family: Arial, Helvetica, sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 9%;
+}
+
+.login {
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    padding: 100px;
+}
+
+/* กรอก email */
+#txtadmin {
+    border: 2px solid #ddd;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#txtadmin:hover {
+    border: 2px solid #333;
+}
+
+/* กรอก password */
+#psw {
+    border: 2px solid #ddd;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#psw:hover {
+    border: 2px solid #333;
+}
+
+/* login button */
+.loginbutton {
+    color: white;
+    border: 1px solid #333;
+    border-radius: 20px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background-color: #333;
+}
+
+.login a {
+    text-decoration: none;
+}
+
+.loginbutton:hover {
+    opacity: 80%;
+}
+
+/* footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}

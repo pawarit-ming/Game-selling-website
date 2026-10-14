@@ -1,0 +1,177 @@
+/* header */
+header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+/* nav bar */
+nav {
+    background-color: #333;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a.login {
+    float: right;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+/* search bar */
+section.search {
+    text-align: center;
+}
+
+.searchbar {
+    width: 70%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #ddd;
+    transition: 0.3s;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+.searchbar:hover {
+    border: 2px solid #333;
+}
+
+.searchbar:focus {
+    border: 2px solid #333;
+}
+
+/* search icon */
+.icon {
+    color: #ddd;
+    transition: 0.3s;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+:hover {
+    color: #333;
+}
+
+.not-found-message {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* เนื้อหาเว็ป */
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+/* siderbar */
+.Criteria {
+    width: 10%;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gametype {
+    display: flex;
+    flex-direction: column;
+}
+
+.type {
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.type:hover {
+    color: #89CFF0;
+}
+
+.gameprice {
+    display: flex;
+    flex-direction: column;
+}
+
+.price {
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.price:hover {
+    color: #89CFF0;
+}
+
+.releasedate {
+    display: flex;
+    flex-direction: column;
+}
+
+.date {
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.date:hover {
+    color: #89CFF0;
+}
+
+/* game */
+.product {
+    text-align: center;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: 0.3s;
+    padding-top: 40px;
+}
+
+.product-item:hover {
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px 5px #888888;
+}
+
+.product-item:focus {
+    box-shadow: 0px 0px 10px 5px #888888;
+}
+
+.product img {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    max-width: 80%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}

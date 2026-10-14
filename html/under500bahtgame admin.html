@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Under 500 ฿</title>
+    <link rel="stylesheet" href="../css/search.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script>
+        function filterGames(event) {
+            event.preventDefault();
+            
+            let input = document.querySelector('.searchbar').value.toLowerCase();
+            let items = document.getElementsByClassName('product-item');
+
+            for (let item of items) {
+                let title = item.getElementsByTagName('p')[0].innerText.toLowerCase();
+                if (title.includes(input)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <nav>
+        <a href="admin.html">Home</a>
+        <a href="search admin.html">Search</a>
+        <a href="about_us admin.html">About Us</a>
+        <a href="updateitem.html">Edit Item</a>
+        <a href="edit admin.html">Edit Admin</a>
+        <a class="login" href="../main.html">Logout</a>
+    </nav>
+
+    <header>
+        <h1 style="font-size: 1.7vw;">SEARCH</h1>
+    </header>
+
+    <section class="search">
+        <form>
+            <input type="text" class="searchbar" placeholder="Search.." style="font-size: 0.7vw;">
+            <button type="submit" class="icon" style="font-size: 1.1vw;" onclick="filterGames(event)"><i class="fa fa-search"></i></button>
+        </form>
+    </section>
+
+    <section class="container">
+        <section class="Criteria">
+            <section class="gametype">
+                <p style="font-size: 1vw;">Game Type</p>
+                <a href="Action Game Admin.html" class="type" style="font-size: 1vw;">
+                    • Action
+                </a>
+                <a href="Open World Game Admin.html" class="type" style="font-size: 1vw;">
+                    • Open World
+                </a>
+                <a href="Farming Game Admin.html" class="type" style="font-size: 1vw;">
+                    • Farming
+                </a>
+                <a href="Sport Game Admin.html" class="type" style="font-size: 1vw;">
+                    • Sport
+                </a>
+                <a href="Violent Game Admin.html" class="type" style="font-size: 1vw;">
+                    • Violent Game
+                </a>
+            </section>
+
+            <section class="gameprice">
+                <p style="font-size: 1vw;">Price</p>
+                <a href="under500bahtgame admin.html" class="price" style="font-size: 1vw;">
+                    • Under 500 ฿
+                </a>
+                <a href="500-1000 game admin.html" class="price" style="font-size: 1vw;">
+                    • 500-1000 ฿
+                </a>
+                <a href="1000-1500 game admin.html" class="price" style="font-size: 1vw;">
+                    • 1000-1500 ฿
+                </a>
+                <a href="1500-2000 game admin.html" class="price" style="font-size: 1vw;">
+                    • 1500-2000 ฿
+                </a>
+            </section>
+
+            <section class="releasedate">
+                <p style="font-size: 1vw;">Release Date</p>
+                <a href="2012-2014 Game Admin.html" class="date" style="font-size: 1vw;">
+                    • 2012 - 2014
+                </a>
+                <a href="2015-2017 Game Admin.html" class="date" style="font-size: 1vw;">
+                    • 2015 - 2017
+                </a>
+                <a href="2018-2020 Game Admin.html" class="date" style="font-size: 1vw;">
+                    • 2018 - 2020
+                </a>
+                <a href="2021-2023 Game Admin.html" class="date" style="font-size: 1vw;">
+                    • 2021 - 2023
+                </a>
+            </section>
+        </section>
+
+        <section class="product">
+            <section class="product-item">
+                <a href="Stardew Admin.html">
+                    <img src="../image/Stardew Vally Square.jpg">
+                </a>
+                <p style="font-size: 1vw;">Stardew Valley</p>
+                <p style="font-size: 1vw;">315 ฿</p>
+            </section>
+        </section>
+    </section>
+
+    <footer>Thank You</footer>
+    
+</body>
+
+</html>

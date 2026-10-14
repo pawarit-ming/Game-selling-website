@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.tabbar {
+    text-align: center;
+    color: black;
+    background-color:#f1f1f1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section.op-bar {
+    flex-direction: row;
+}
+
+.op-bar:hover {
+    color: #89CFF0;
+    cursor: pointer;
+}
+
+h1 {
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+/* nav bar */
+nav {
+    background-color: #333;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a.login {
+    float: right;
+}
+
+nav a:hover {
+    color: #ddd;
+    cursor: pointer;
+}
+
+/* imgae */
+img {
+    max-width: 90%;
+}
+
+/* เนื่อหาเว็ป */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* สินค้า */
+.product {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.column {
+    width: 22.5vw;
+    transition: 0.3s;
+}
+
+.column:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

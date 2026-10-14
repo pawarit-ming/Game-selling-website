@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Edit Item</title>
+        <link rel="stylesheet" href="../css/ED.css">
+    </head>
+    <body>
+        <nav>
+            <a href="admin.html">Cancel</a>
+        </nav>
+
+        <header>
+            <h1>Edit Item</h1><br>
+        </header>
+
+        <div class="sidebar">
+            <ul>
+                <li><h2>Admin</h2><br></li>
+                <li><a href="additem.html"><button id="show-add-form">Add Item</button></a></li>
+                <li><a href="edititem.html"><button id="show-edit-form">Edit Item</button></a></li>
+                <li><a href="delitem.html"><button id="show-del-form">Delete Item</button></a></li>
+                <li><a href="updateitem.html"><button type="reset" id="rebutt">Reset</button></a></li>
+            </ul>
+        </div>
+
+        <section class="Edit">
+
+            <img src="https://static.vecteezy.com/system/resources/previews/005/544/718/non_2x/profile-icon-design-free-vector.jpg" class="profile-admin">
+            <h1>Name</h1><br>
+
+            <form id="edit-product-form" style="display: block;" action="/form-update" method="post">
+                <input type="number" id="product-id" name="item_id" placeholder="Product ID" required>
+                <input type="text" id="product-name" name="item_name" placeholder="Product Name" required>
+                <input type="number" id="product-price" name="price" placeholder="Price" required>
+                <input type="number" id="product-year" name="yr" placeholder="Release date" required>
+                <input type="text" id="product-tag" name="tag" placeholder="Product Type" required>
+                <input type="text" id="product-img" name="image" placeholder="Product Image" required>
+                <button type="submit" id="submitbotton">SAVE</button><br>
+                <button type="reset" id="cancel-edit">CLEAR</button>
+            </form>
+
+        </section>
+
+    </body>
+</html>

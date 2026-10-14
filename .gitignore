@@ -1,0 +1,10 @@
+# Dependencies
+node_modules/
+
+# Local secrets (database credentials) — copy .env.example to .env instead
+.env
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/

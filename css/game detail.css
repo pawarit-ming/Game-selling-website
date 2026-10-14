@@ -1,0 +1,125 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+    color: black;
+}
+
+h1 {
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+/* nav bar */
+nav {
+    background-color: #333;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a.login {
+    float: right;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+/* ปกเกม */
+.gamecover {
+    width: 850px;
+    height: 400px;
+    object-fit: contain;
+}
+
+/* รูปใต้วิดีโอ */
+.img_video {
+    width: 183px;
+    height: 150px;
+    object-fit: contain;
+    transition: 0.3s;
+}
+
+.img-link {
+    position: relative;
+    display: inline-block;
+}
+
+.img-link:hover .img_video {
+    opacity: 80%;
+}
+
+.container {
+    width: 90vw;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.product{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}   
+
+/* ปุ่มซื้อ */
+button {
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #333;
+    color: white;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    opacity: 90%;
+    cursor: pointer;
+}
+
+/* ขนาดของคลิป */
+iframe {
+    width: 39vw;
+    height: 22vw;
+    margin-top: 25px;
+    transition: 0.3s;
+}
+
+iframe:hover {
+    opacity: 90%;
+}
+
+ /* ราคา */
+.text_price {
+    padding-bottom: 10px;
+    margin-left: 15px;
+}
+
+.column {
+    text-align: center;
+}
+
+.gameinfo {
+    margin-top: 25px;
+    text-align: center;
+}
+
+/* footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
